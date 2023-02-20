@@ -10,24 +10,9 @@ from w1thermsensor import W1ThermSensor
 
 from telebot import types
 
-# setup
-
-# создаём объект для работы с сенсором
-sensor3_temp = W1ThermSensor()
-sensor4_temp = W1ThermSensor()
-
-# создаём объект для работы с расширителем портов
-exp = gpioexp.gpioexp()
-
-# пин к которому подключен датчик влажности почвы
-# любой GPIO пин платы расширения Troyka Cap
-pinSensor1 = 1
-pinSensor2 = 2
-
-# end setup
 
 
-bot = telebot.TeleBot('6031969731:AAGpj4dF2qd1nNobJIWZdh2bQApWTdEMTVE')
+bot = telebot.TeleBot('')
 
 air_temperature = ''
 soil_moisture = ''
@@ -35,20 +20,6 @@ air_humidity = ''
 air_temperature_now = ''
 soil_moisture_now = ''
 air_humidity_now = ''
-
-def read_sensors():
-    # считываем состояние датчика влажности почвы
-    valueSensor1 = exp.analogRead(pinSensor1) * 100
-    valueSensor2 = exp.analogRead(pinSensor2) * 100
-    valueSensor_of_soil_moisture_now = (valueSensor1 + valueSensor2)/2
-
-    # считываем данные температуры воздуха с датчика
-    temperature = (sensor3_temp.get_temperature() + sensor4_temp.get_temperature())/2
-
-    # выводим значения в консоль каждую секунду
-    print('Value sensor: ', round(valueSensor_of_soil_moisture_now), ' %')
-    print(temperature)
-    return temperature, valueSensor_of_soil_moisture_now
 
 @bot.message_handler(commands=['start'])
 def start(message):
