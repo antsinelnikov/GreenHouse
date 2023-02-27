@@ -1,3 +1,5 @@
+#Веб-интерфейс для записи данных на устройство, реализованный за счёт Telegram Бота
+
 import telebot
 import asyncio
 import time
