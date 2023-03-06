@@ -3,15 +3,15 @@
 ## Теплица с автомотизированным механизмом контроля в ней климата
 ---
 ### Содержание 
-[Используемые компоненты](https://github.com/antsinelnikov/GreenHouse/README.md#используемыекомпоненты "Используемые компоненты")  
-[Схемы работы устройства](https://github.com/antsinelnikov/GreenHouse/README.md#схемыработыустройства "Схемы работы устройства")  
-[Почему Telegram бот](https://github.com/antsinelnikov/GreenHouse/README.md#ПочемуTelegramбот "Почему Telegram бот")  
-[Как мы подключили Arduino к Rassbery](https://github.com/antsinelnikov/GreenHouse/README.md#КакмыподключилиArduinoкRassbery "Как мы подключили Arduino к Rassbery")
-[Описание самой конструкции](https://github.com/antsinelnikov/GreenHouse/README.md#используемыекомпоненты "Описание самой конструкции")   
-[Проблемы с которыми мы столкнулись](https://github.com/antsinelnikov/GreenHouse/README.md#Проблемыскоторымимыстолкнулись "Проблемы с которыми мы столкнулись")  
-[Примерная 3D модель](https://github.com/antsinelnikov/GreenHouse/README.md#Примерная3Dмодель "Примерная 3D модель")  
-[Фотографии самой теплицы](https://github.com/antsinelnikov/GreenHouse/README.md#Фотографиисамойтеплицы "Фотографии самой теплицы")  
-[Куда дальше развиваться?](https://github.com/antsinelnikov/GreenHouse/README.md#Кудадальшеразвиваться? "Куда дальше развиваться?")  
+[Используемые компоненты](https://github.com/antsinelnikov/GreenHouse/README.md-format#используемыекомпоненты "Используемые компоненты")  
+[Схемы работы устройства](https://github.com/antsinelnikov/GreenHouse/README.md-format#схемыработыустройства "Схемы работы устройства")  
+[Почему Telegram бот](https://github.com/antsinelnikov/GreenHouse/README.md-format#ПочемуTelegramбот "Почему Telegram бот")  
+[Как мы подключили Arduino к Rassbery](https://github.com/antsinelnikov/GreenHouse/README.md-format#КакмыподключилиArduinoкRassbery "Как мы подключили Arduino к Rassbery")
+[Описание самой конструкции](https://github.com/antsinelnikov/GreenHouse/README.md-format#используемыекомпоненты "Описание самой конструкции")   
+[Проблемы с которыми мы столкнулись](https://github.com/antsinelnikov/GreenHouse/README.md-format#Проблемыскоторымимыстолкнулись "Проблемы с которыми мы столкнулись")  
+[Примерная 3D модель](https://github.com/antsinelnikov/GreenHouse/README.md-format#Примерная3Dмодель "Примерная 3D модель")  
+[Фотографии самой теплицы](https://github.com/antsinelnikov/GreenHouse/README.md-format#Фотографиисамойтеплицы "Фотографии самой теплицы")  
+[Куда дальше развиваться?](https://github.com/antsinelnikov/GreenHouse/README.md-format#Кудадальшеразвиваться? "Куда дальше развиваться?")  
 
 ---
 
